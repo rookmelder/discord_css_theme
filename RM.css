@@ -54,9 +54,22 @@ div[class*="inner_c0bea0"]:has(div[aria-label="desondanks, Online"]) {
     }
 }
 
+/* this one adds some cute cats to the botton of my profile in dms */
+div[class*="content_c48ade"]:has(div[aria-label="desondanks"]) {
+    div[class*="page_c48ade"] {
+        div[class="none_d125d2 scrollerBase_d125d2"] {
+            
+            background-image: url(https://media.tenor.com/YbzQM17QUG0AAAAi/cat-cats.gif);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+        }
+        
+    }
+}
 
 
-
+/* --------OTHER PEOPLE-------- */
 
 /* Sen */
 li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1109135652626382909"]) {
