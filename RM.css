@@ -53,7 +53,7 @@ div[class*="content_c48ade"]:has(div[aria-label="desondanks"]) {
     div[class*="page_c48ade"] {
 
         /* this is for the banner in a dm (like the one on the right) */
-        div[class*="outer_c0bea0"]:has(div[aria-label="desondanks, Online"]) {
+        div[class*="outer_c0bea0"]:has(div[aria-label^="desondanks,"]) {
             div[class="banner__68edb banner__7f9c0"] {
                 background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
                 background-size: cover;
