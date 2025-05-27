@@ -39,7 +39,7 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/124800947178805
 
 
 /* this one is for then they click on your profile */
-div[class*="inner_c0bea0"]:has(div[aria-label="desondanks"]) {
+div[id*="popout"]:has(div[aria-label="desondanks"]) {
     div[class*="banner__68edb"] {
         background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
         background-size: cover;
