@@ -27,7 +27,7 @@ li[class*="channel__972a0 dm__972a0"] {
 
 
 /* myself */
-li[class*="channel__972a0 dm__972a0"]:has(div[aria-label="desondanks, Online"]) {
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="desondanks,"]) {
     background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRjamRkOXVpZHBnMGVjOWJrZGN4ODdhYmJkdTR2MnByc3h6c2Y4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3uQutqFLzUXn5bt9Y5/giphy.gif); 
     background-size: 40%;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ div[class="base_c48ade"]:has(div[aria-label="Garden of Autism, server actions"])
 /* --------OTHER PEOPLE-------- */
 
 /* Sen */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1109135652626382909"]) {
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="sennie_,"]) {
     background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGRrN3dyejMzc2c1dzgzMm9jMHQwbzkzYmhxYW04bGxmNGtiZnQ5eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oQumjUSr7bMX9P7nzo/giphy.gif); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/110913565262638
 } 
 
 /* millie */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1333551781157802065"]) {
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="xxmilliemaexx,"]) {
     background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWl2dm1vOWZvc3Z4amNhM3F0YnRsbGh1cHYwdTRidm9taDdjMXJjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gwhf0rHUZfibTouUHX/giphy.gif); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/133355178115780
 }
 
 /* a very weird worm person */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1346599063448981515"]) {
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="squishy_duck28,"]) {
     background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXNpMTM5eDJoMTJpMnBoOWZpYnp4ZHFwcnl1NHZiM3lxN28ydWRoNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0D4885TZWK9OJBSfmo/giphy.gif); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/134659906344898
 }
 
 /* exxi */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1335717508468178994"]) {
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="exxibobr,"]) {
     background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRjamRkOXVpZHBnMGVjOWJrZGN4ODdhYmJkdTR2MnByc3h6c2Y4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3uQutqFLzUXn5bt9Y5/giphy.gif); 
     background-size: 40%;
     background-repeat: no-repeat;
