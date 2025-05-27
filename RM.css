@@ -27,11 +27,11 @@ li[class*="channel__972a0 dm__972a0"] {
 
 
 /* myself */
-li[class*="channel__972a0 dm__972a0"]:has(a[href*="/channels/@me/1248009471788056607"]) {
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRjZ3VvcGZteXJxODRndjFqb2F2eWp4YzZvc3R2eXE5djh1cHllaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Pd6qtNx1zfG9C0cQbP/giphy.gif); 
-    background-size: 50%;
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label="desondanks, Online"]) {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRjamRkOXVpZHBnMGVjOWJrZGN4ODdhYmJkdTR2MnByc3h6c2Y4MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3uQutqFLzUXn5bt9Y5/giphy.gif); 
+    background-size: 40%;
     background-repeat: no-repeat;
-    background-position: 100% 25%;
+    background-position: 80% 80%;
 }
 
 /* these are to get a custom gif/photo/whatever you want, as a banner */
