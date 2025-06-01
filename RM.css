@@ -123,3 +123,11 @@ li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="exxibobr,"]) {
     background-repeat: no-repeat;
     background-position: 80% 80%;
 }
+
+/* void */
+li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="voidz_cloaks,"]) {
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjJ4eTJudjF5emEweDhuZjY3dHJuamg2YWIxeTlucXd1amE0dzIxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UAN21skvvJ2TCcZiCm/giphy.gif); 
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 80% 80%;
+}
