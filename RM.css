@@ -25,6 +25,14 @@ li[class*="channel__972a0 dm__972a0"] {
     margin-bottom: 10px;
 }
 
+/* for animations */
+@keyframes popout {
+    0% {background-size: 0%;}
+    50% {background-size: 150%;}
+    100% {background-size: 0%;}
+}
+
+
 
 /* myself */
 li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="desondanks,"]) {
@@ -46,6 +54,19 @@ div[class="childContainer__91a9d"]:has(div[aria-label^="desondanks,"]) {
 
 /* this one is for then they click on your profile */
 div[id*="popout"]:has(div[aria-label="desondanks"]) {
+
+/*     here i give it a little animation of a fish poping up when you clink on my profile */
+    div[class*="outer_c0bea0"] {    
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzE0MGVjNzR2ZTUxbnNna3lqaGR0aDI5Z3Izbjhid2RiMzZ1MDIwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SSsBgqTmmxdxRD9ohh/giphy.gif);
+        background-size: 0%;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation-name: popout;
+        animation-duration: 4s;
+        overflow: visible;
+    }
+    
+    
     div[class*="banner__68edb"] {
         background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN25ibDA2M2RlNDI0d2Ztano1Mjg5dnVmbXhrejZtdnQ3eTUxZjg3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VVGOKLFJI5jOP46SKS/giphy.gif);
         background-size: cover;
