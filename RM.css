@@ -77,7 +77,7 @@ div[class*="content_c48ade"]:has(div[aria-label="desondanks"]) {
 
 /* here is an exanple of a specific server */
 
-div[class="base_c48ade"]:has(div[aria-label="Garden of Autism, server actions"]) {
+div[class="base_c48ade"]:has(div[aria-label^="Garden of Autism,"]) {
     div[class*="page_c48ade"] {
     }
     div[class="defaultColor__4bd52 lineClamp1__4bd52 text-sm/medium_cf4812"] {
