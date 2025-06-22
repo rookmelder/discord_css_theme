@@ -128,6 +128,19 @@ li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="sennie_,"]) {
     background-position: center;
 } 
 
+div[class*="content_c48ade"]:has(div[aria-label="sennie_"]) {
+    div[class*="page_c48ade"] {
+        div[class="none_d125d2 scrollerBase_d125d2"] {
+            
+            background-image: url(https://github.com/rookmelder/discord_css_theme/blob/main/Oh_no_Fisk_die.gif);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+        }
+        
+    }
+}
+
 /* millie */
 li[class*="channel__972a0 dm__972a0"]:has(div[aria-label^="xxmilliemaexx,"]) {
     background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWl2dm1vOWZvc3Z4amNhM3F0YnRsbGh1cHYwdTRidm9taDdjMXJjMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/gwhf0rHUZfibTouUHX/giphy.gif); 
